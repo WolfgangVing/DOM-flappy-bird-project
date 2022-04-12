@@ -4,7 +4,7 @@
  <a href=#about>About</a> |
  <a href="#languages">Languages</a> |
  <a href="#instruction">Instruction</a> |
- <a href="#licence">Licença</a> 
+ <a href="#license">license</a> 
 </p>
 
 ---
@@ -37,5 +37,5 @@ If you don't have VSCode and just want to test this version open the link below.
 1. Replit: [Link] 
 
 
-## Licence
+## license
 [MIT](https://choosealicense.com/licenses/mit/)

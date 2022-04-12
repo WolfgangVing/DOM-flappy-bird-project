@@ -1,0 +1,68 @@
+:root {
+    --pipe-color: linear-gradient(90deg, rgb(21, 99, 25), rgb(41, 171, 47));
+    --pipe-border: 2px solid #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Pixel";
+    src: url('../fonts/Pixel.ttf');
+}
+
+[wm-flappy] {
+    position: relative;
+    border: 5px solid dodgerblue;
+    height: 700px;
+    width: 1200px;
+    margin: 15px;
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+
+.bird {
+    position: absolute;
+    width: 60px;
+    left:calc(50% - 30px)
+}
+
+.par-de-pipes {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pipe .top{
+    height: 30px;
+    width: 130px;
+    background: var(--pipe-color);
+    border: var(--pipe-border);
+}
+
+.pipe .structure {
+    height: 150px;
+    width: 110px;
+    background: var(--pipe-color);
+    border-left: var(--pipe-border);
+    border-right: var(--pipe-border);
+}
+
+.progresso {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    font-family: Pixel;
+    font-size: 70px;
+    z-index: 100;
+}

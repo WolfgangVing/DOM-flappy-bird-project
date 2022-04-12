@@ -27,14 +27,12 @@ For this reason, this project is an part 0 of one (?).
 
 ## Instruction
 With the assumpition you have VSCode installed.
+
  1. Clone this project in a local folder.
  2. Install Live Server of Ritwick Dey extension.
  3. Start the local server, this will launch the game in your standard browser.
  4. Try it.
 
-If you don't have VSCode and just want to test this version open the link below.
-
-1. Replit: [Link] 
 
 
 ## license
